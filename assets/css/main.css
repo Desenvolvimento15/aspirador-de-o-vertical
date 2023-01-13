@@ -1,0 +1,276 @@
+@font-face{font-family:CamphorPro-Light;src:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/css/fonts/camphor-pro/CamphorPro-Light.woff) format("woff")}
+@font-face{font-family:CamphorPro-Regular;src:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/css/fonts/camphor-pro/CamphorPro-Regular.woff) format("woff")}
+@font-face{font-weight:700;font-family:CamphorPro-Bold;src:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/css/fonts/camphor-pro/CamphorPro-Bold.woff) format("woff")}
+@font-face{font-family:CamphorPro-Thin;src:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/css/fonts/camphor-pro/CamphorPro-Thin.woff) format("woff"),url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/css/fonts/camphor-pro/CamphorPro-Thin.svg#CamphorPro-Thin) format("svg")}
+@font-face{font-weight:900;font-family:Camphor-Heavy;src:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/css/fonts/camphor-pro/CamphorPro-Heavy.woff) format("woff"),url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/css/fonts/camphor-pro/CamphorPro-Heavy.svg#CamphorPro-Heavy) format("svg")}
+@font-face{font-family:CamphorPro-Medium;src:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/css/fonts/camphor-pro/CamphorPro-Medium.woff) format("woff"),url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/css/fonts/camphor-pro/CamphorPro-Medium.svg#CamphorPro-Medium) format("svg")}
+@font-face{font-weight:100;font-family:ProximaNova;font-style:normal;src:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/css/fonts/proxima-nova/proxima-nova-thin.woff?p=) format("woff")}
+@font-face{font-weight:300;font-family:ProximaNova;font-style:normal;src:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/css/fonts/proxima-nova/proxima-nova-light.woff?p=) format("woff")}
+@font-face{font-weight:400;font-family:ProximaNova;font-style:normal;src:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/css/fonts/proxima-nova/proxima-nova-regular.woff?p=) format("woff")}
+@font-face{font-weight:600;font-family:ProximaNova;font-style:normal;src:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/css/fonts/proxima-nova/proxima-nova-semibold.woff?p=) format("woff")}
+@font-face{font-weight:700;font-family:ProximaNova;font-style:normal;src:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/css/fonts/proxima-nova/proxima-nova-bold.woff?p=) format("woff")}
+@font-face{font-weight:800;font-family:ProximaNova;font-style:normal;src:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/css/fonts/proxima-nova/proxima-nova-extrabold.woff?p=) format("woff")}
+@font-face{font-weight:900;font-family:ProximaNova;font-style:normal;src:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/css/fonts/proxima-nova/proxima-nova-black.woff?p=) format("woff")}
+
+.mi-vacuum-cleaner-light .f-heavy{font-family:Camphor-Heavy,sans-serif;font-weight:900}
+.mi-vacuum-cleaner-light .f-regular{font-family:CamphorPro-Regular,sans-serif}
+.mi-vacuum-cleaner-light .f-light{font-family:CamphorPro-Light,sans-serif}
+.mi-vacuum-cleaner-light .f-bold{font-family:CamphorPro-Bold,sans-serif;font-weight:700}
+.mi-vacuum-cleaner-light .f-medium{font-family:CamphorPro-Medium,sans-serif}
+.mi-vacuum-cleaner-light .f-thin{font-family:CamphorPro-Thin,sans-serif}
+.mi-vacuum-cleaner-light .f-nova{font-family:ProximaNova,sans-serif}
+
+.mi-vacuum-cleaner-light-out,.mi-vacuum-cleaner-light-out *{font-size:192px}
+.mi-vacuum-cleaner-light-out br{font-size:0}
+
+.mi-vacuum-cleaner-light.overview-con{width:100%;color:#757575;font-size:14px;line-height:1.5;background-color:#f5f5f5;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;max-width:1920px;margin:0 auto}
+.mi-vacuum-cleaner-light.overview-con .f12{font-size:.046875em}
+.mi-vacuum-cleaner-light.overview-con .f14{font-size:.054688em}
+.mi-vacuum-cleaner-light.overview-con .f16{font-size:.0625em}
+.mi-vacuum-cleaner-light.overview-con .f18{font-size:.070313em}
+.mi-vacuum-cleaner-light.overview-con .f20{font-size:.078125em}
+.mi-vacuum-cleaner-light.overview-con .f22{font-size:.085938em}
+.mi-vacuum-cleaner-light.overview-con .f24{font-size:.09375em}
+.mi-vacuum-cleaner-light.overview-con .f26{font-size:.101563em}
+.mi-vacuum-cleaner-light.overview-con .f28{font-size:.109375em}
+.mi-vacuum-cleaner-light.overview-con .f30{font-size:.117188em}
+.mi-vacuum-cleaner-light.overview-con .f32{font-size:.125em}
+.mi-vacuum-cleaner-light.overview-con .f34{font-size:.132813em}
+.mi-vacuum-cleaner-light.overview-con .f36{font-size:.140625em}
+.mi-vacuum-cleaner-light.overview-con .f38{font-size:.148438em}
+.mi-vacuum-cleaner-light.overview-con .f40{font-size:.15625em}
+.mi-vacuum-cleaner-light.overview-con .f42{font-size:.164063em}
+.mi-vacuum-cleaner-light.overview-con .f44{font-size:.171875em}
+.mi-vacuum-cleaner-light.overview-con .f46{font-size:.179688em}
+.mi-vacuum-cleaner-light.overview-con .f48{font-size:.1875em}
+.mi-vacuum-cleaner-light.overview-con .f50{font-size:.195313em}
+.mi-vacuum-cleaner-light.overview-con .f52{font-size:.203125em}
+.mi-vacuum-cleaner-light.overview-con .f54{font-size:.210938em}
+.mi-vacuum-cleaner-light.overview-con .f56{font-size:.21875em}
+.mi-vacuum-cleaner-light.overview-con .f58{font-size:.226563em}
+.mi-vacuum-cleaner-light.overview-con .f60{font-size:.234375em}
+.mi-vacuum-cleaner-light.overview-con .f64{font-size:.25em}
+.mi-vacuum-cleaner-light.overview-con .f70{font-size:.273438em}
+.mi-vacuum-cleaner-light.overview-con .f72{font-size:.28125em}
+.mi-vacuum-cleaner-light.overview-con .f76{font-size:.296875em}
+.mi-vacuum-cleaner-light.overview-con .f80{font-size:.3125em}
+.mi-vacuum-cleaner-light.overview-con .f82{font-size:.320313em}
+.mi-vacuum-cleaner-light.overview-con .f86{font-size:.335938em}
+.mi-vacuum-cleaner-light.overview-con .f88{font-size:.34375em}
+.mi-vacuum-cleaner-light.overview-con .f90{font-size:.351563em}
+.mi-vacuum-cleaner-light.overview-con .f98{font-size:.382813em}
+.mi-vacuum-cleaner-light.overview-con .f100{font-size:.390625em}
+.mi-vacuum-cleaner-light.overview-con .f110{font-size:.429688em}
+.mi-vacuum-cleaner-light.overview-con .f120{font-size:.46875em}
+.mi-vacuum-cleaner-light.overview-con .f128{font-size:.5em}
+.mi-vacuum-cleaner-light.overview-con .f130{font-size:.507813em}
+.mi-vacuum-cleaner-light.overview-con .f138{font-size:.539063em}
+.mi-vacuum-cleaner-light.overview-con .f140{font-size:.546875em}
+.mi-vacuum-cleaner-light.overview-con .f148{font-size:.578125em}
+.mi-vacuum-cleaner-light.overview-con .f150{font-size:.585938em}
+.mi-vacuum-cleaner-light.overview-con .f160{font-size:.625em}
+.mi-vacuum-cleaner-light.overview-con .f200{font-size:.78125em}
+.mi-vacuum-cleaner-light.overview-con .white{color:#fff}
+.mi-vacuum-cleaner-light.overview-con .black{color:#333}
+
+.mi-vacuum-cleaner-light.overview-con .section .xm-text,.mi-vacuum-cleaner-light.overview-con .section .xm-visible{opacity:0;transform:translateY(2vh)}
+.mi-vacuum-cleaner-light.overview-con .section.is-visible .xm-text,.mi-vacuum-cleaner-light.overview-con .section.is-visible .xm-visible{opacity:1;transform:translateY(0);transition:all 1s linear}
+
+.mi-vacuum-cleaner-light.overview-con .section{position:relative;width:100%}
+.mi-vacuum-cleaner-light.overview-con .section .text-container{line-height:0}
+.mi-vacuum-cleaner-light.overview-con .xm-text{line-height:1}
+.mi-vacuum-cleaner-light.overview-con .f60{line-height:1.2}
+.mi-vacuum-cleaner-light.overview-con .f30{line-height:1.4}
+.mi-vacuum-cleaner-light.overview-con .section .text-container.absolute{position:absolute}
+.mi-vacuum-cleaner-light.overview-con .section-o1{height:6.097656em;background-repeat:no-repeat;background-size:cover}
+.mi-vacuum-cleaner-light.overview-con .section-o1 .text-container{top:1.152344em;left:4.613281em;width:4.5em;letter-spacing:-.9px}
+.mi-vacuum-cleaner-light.overview-con .section-o1 .f48{margin-top:.117188em;line-height:1.2}
+.mi-vacuum-cleaner-light.overview-con .section-o1 .f30{margin-top:1.3em}
+.mi-vacuum-cleaner-light.overview-con .section-o1 .f30 span{font-size:1em}
+.mi-vacuum-cleaner-light.overview-con .section-o2{box-sizing:border-box;padding:.390625em 1.503906em;background-color:#8f6d51}
+.mi-vacuum-cleaner-light.overview-con .section-o2 .text-container{display:flex;flex-wrap:wrap}
+.mi-vacuum-cleaner-light.overview-con .section-o2 .text-item{display:flex;flex-direction:column;align-items:center;box-sizing:border-box;width:33%;min-height:.78125em;padding:.195313em .171875em .117188em;text-align:center;border-right:1px solid hsla(0,0%,100%,.14);border-bottom:1px solid hsla(0,0%,100%,.14)}
+.mi-vacuum-cleaner-light.overview-con .section-o2 .text-item:nth-child(3),.mi-vacuum-cleaner-light.overview-con .section-o2 .text-item:nth-child(6){border-right:none}
+.mi-vacuum-cleaner-light.overview-con .section-o2 .text-item:nth-child(4),.mi-vacuum-cleaner-light.overview-con .section-o2 .text-item:nth-child(5),.mi-vacuum-cleaner-light.overview-con .section-o2 .text-item:nth-child(6){border-bottom:none}
+.mi-vacuum-cleaner-light.overview-con .section-o2 .f24{margin-top:1em}
+.mi-vacuum-cleaner-light.overview-con .section-o3{background-repeat:no-repeat;background-size:cover;height:6.636719em}
+.mi-vacuum-cleaner-light.overview-con .section-o3 .text-container{top:.992188em;left:1.488281em;width:5em}
+.mi-vacuum-cleaner-light.overview-con .section-o3 .f60{line-height:1.1}
+.mi-vacuum-cleaner-light.overview-con .section-o3 .f30{margin-top:.195313em;line-height:1.4;margin-top:1.7em;width:28em}
+.mi-vacuum-cleaner-light.overview-con .section-o4{background-repeat:no-repeat;background-size:cover;box-sizing:border-box;height:5.808594em;padding-top:.621094em}
+.mi-vacuum-cleaner-light.overview-con .section-o4 .text-container{width:5.3em;margin:0 auto;text-align:center}
+.mi-vacuum-cleaner-light.overview-con .section-o4 .f30{margin-top:.1em}
+.mi-vacuum-cleaner-light.overview-con .section-o5{background-repeat:no-repeat;background-size:cover;height:6.507813em}
+.mi-vacuum-cleaner-light.overview-con .section-o5 .text-container{top:1.84375em;left:4.542969em;width:3.6em}
+.mi-vacuum-cleaner-light.overview-con .section-o5 .f60{line-height:1.1;font-size:.21484375em}
+.mi-vacuum-cleaner-light.overview-con .section-o5 .f30{margin-top:1.7em}
+.mi-vacuum-cleaner-light.overview-con .section-o6{background-repeat:no-repeat;background-size:cover;box-sizing:border-box;height:5.410156em;padding:.171875em .171875em 0;background-color:#fff;background-origin:content-box}
+.mi-vacuum-cleaner-light.overview-con .section-o6 .text-container{top:1.5em;left:1.484375em;width:3.320313em}
+.mi-vacuum-cleaner-light.overview-con .section-o6 .f60{line-height:1.1}
+.mi-vacuum-cleaner-light.overview-con .section-o6 .f30{margin-top:1.6em}
+.mi-vacuum-cleaner-light.overview-con .section-o7{background-repeat:no-repeat;background-size:cover;box-sizing:border-box;height:5.980469em;padding:.171875em;background-color:#fff;background-origin:content-box}
+.mi-vacuum-cleaner-light.overview-con .section-o7 .text-container{top:.78125em;left:2em;width:6em;text-align:center}
+.mi-vacuum-cleaner-light.overview-con .section-o7 .f60{line-height:1.1;font-size:.20703125em}
+.mi-vacuum-cleaner-light.overview-con .section-o7 .f30{margin-top:.195313em;font-size:.109375em}
+.mi-vacuum-cleaner-light.overview-con .section-o8{background-repeat:no-repeat;background-size:cover;height:5.390625em}
+.mi-vacuum-cleaner-light.overview-con .section-o8 .text-container{top:2.859375em;left:1.46875em;width:3.613281em}
+.mi-vacuum-cleaner-light.overview-con .section-o8 .f60{line-height:1.1}
+.mi-vacuum-cleaner-light.overview-con .section-o8 .f30{margin-top:1.9em}
+.mi-vacuum-cleaner-light.overview-con .section-o9{background-repeat:no-repeat;background-size:cover;box-sizing:border-box;height:5.546875em;padding-top:.578125em}
+.mi-vacuum-cleaner-light.overview-con .section-o9 .text-container{width:4em;margin:0 auto;text-align:center}
+.mi-vacuum-cleaner-light.overview-con .section-o9 .f60{line-height:1.1}
+.mi-vacuum-cleaner-light.overview-con .section-o9 .text-container .f30{margin-top:1.7em}
+.mi-vacuum-cleaner-light.overview-con .section-o9 .feature-item{position:absolute;top:4.3em;width:1.5625em;text-align:center;line-height:0}
+.mi-vacuum-cleaner-light.overview-con .section-o9 .feature-item:first-child{left:2.242188em}
+.mi-vacuum-cleaner-light.overview-con .section-o9 .feature-item:nth-child(2){left:5.015625em}
+.mi-vacuum-cleaner-light.overview-con .section-o9 .feature-item:nth-child(3){left:6.65625em}
+.mi-vacuum-cleaner-light.overview-con .section-o9 .feature-item .bottom{margin-top:.03125em}
+.mi-vacuum-cleaner-light.overview-con .section-o10{height:7.238281em;background-repeat:no-repeat;background-size:cover}
+.mi-vacuum-cleaner-light.overview-con .section-o10 .text-container{top:4em;left:1.484375em;width:3.613281em}
+.mi-vacuum-cleaner-light.overview-con .section-o10 .f60{line-height:1.1;font-size:.22265625em}
+.mi-vacuum-cleaner-light.overview-con .section-o10 .f30{margin-top:1.8em}
+.mi-vacuum-cleaner-light.overview-con .section-o11{box-sizing:border-box;height:5.808594em;padding-top:.625em;background-repeat:no-repeat;background-size:cover}
+.mi-vacuum-cleaner-light.overview-con .section-o11 .text-container{width:7.03125em;margin:0 auto;text-align:center}
+.mi-vacuum-cleaner-light.overview-con .section-o11 .f60{line-height:1.1}
+.mi-vacuum-cleaner-light.overview-con .section-o11 .f30{margin-top:1.7em}
+.mi-vacuum-cleaner-light.overview-con .section-o12{height:5.859375em;background-repeat:no-repeat;background-size:cover}
+.mi-vacuum-cleaner-light.overview-con .section-o12 .text-container{top:.992188em;left:5.167969em;width:3.34375em}
+.mi-vacuum-cleaner-light.overview-con .section-o12 .f60{line-height:1.1}
+.mi-vacuum-cleaner-light.overview-con .section-o12 .f30{margin-top:1.7em}
+.mi-vacuum-cleaner-light.overview-con .section-o13{box-sizing:border-box;height:6.203125em;padding-top:.625em;background-repeat:no-repeat;background-size:cover}
+.mi-vacuum-cleaner-light.overview-con .section-o13 .text-container{width:7.03125em;margin:0 auto;text-align:center}
+.mi-vacuum-cleaner-light.overview-con .section-o13 .f60{line-height:1.1}
+.mi-vacuum-cleaner-light.overview-con .section-o13 .f30{margin-top:.195313em}
+.mi-vacuum-cleaner-light.overview-con .section-o14{height:5.691406em;background-repeat:no-repeat;background-size:cover}
+.mi-vacuum-cleaner-light.overview-con .section-o14 .text-container{top:2.613281em;left:1.492188em;width:4.4em}
+.mi-vacuum-cleaner-light.overview-con .section-o14 .f60{line-height:1.1;font-size:.21484375em}
+.mi-vacuum-cleaner-light.overview-con .section-o14 .f30{margin-top:1.7em;width:28em}
+.mi-vacuum-cleaner-light.overview-con .section-o15{height:4.378906em;background-repeat:no-repeat;background-size:cover}
+.mi-vacuum-cleaner-light.overview-con .section-o15 .text-container{top:1.375em;left:5.175781em;width:3.34375em}
+.mi-vacuum-cleaner-light.overview-con .section-o15 .f60{line-height:1.1}
+.mi-vacuum-cleaner-light.overview-con .section-o15 .f30{margin-top:1.8em}
+.mi-vacuum-cleaner-light.overview-con .section-o16{box-sizing:border-box;padding:.464844em 1.480469em 1.011719em;background-color:#fff;line-height:0}
+.mi-vacuum-cleaner-light.overview-con .section-o16 .f60{width:100%;text-align:center}
+.mi-vacuum-cleaner-light.overview-con .section-o16 .feature-list{display:flex;align-items:stretch;justify-content:space-between;margin-top:.5em}
+.mi-vacuum-cleaner-light.overview-con .section-o16 .feature-item{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;width:2.289063em;overflow:hidden;text-align:center;background-color:#eee;border-radius:.117188em}
+.mi-vacuum-cleaner-light.overview-con .section-o16 .image{width:100%;height:1.5625em}
+.mi-vacuum-cleaner-light.overview-con .section-o16 .f30{margin-top:1em;font-size:.1171875em;vertical-align:top}
+.mi-vacuum-cleaner-light.overview-con .section-o16 .f20{margin-top:1em;margin-bottom:2em;font-size:.08984375em;vertical-align:top;line-height:1.2;    padding:0 1em}
+.mi-vacuum-cleaner-light.overview-con .section-o16 .f18{color:rgba(50,50,50,.7);vertical-align:top;margin-bottom:1em}
+.mi-vacuum-cleaner-light.overview-con .section-o16 .note{width:6.164063em;margin:.53125em auto 0;color:#909090}
+.mi-vacuum-cleaner-light.overview-con .section-o16 .note .f18{display:block}
+
+.mi-vacuum-cleaner-light .section-o1{background-image:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/media/placeholder.png)}
+.mi-vacuum-cleaner-light .section-o3{background-image:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/media/placeholder.png)}
+.mi-vacuum-cleaner-light .section-o4{background-image:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/media/placeholder.png)}
+.mi-vacuum-cleaner-light .section-o5{background-image:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/media/placeholder.png)}
+.mi-vacuum-cleaner-light .section-o6{background-image:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/media/placeholder.png)}
+.mi-vacuum-cleaner-light .section-o7{background-image:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/media/placeholder.png)}
+.mi-vacuum-cleaner-light .section-o8{background-image:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/media/placeholder.png)}
+.mi-vacuum-cleaner-light .section-o9{background-image:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/media/placeholder.png)}
+.mi-vacuum-cleaner-light .section-o10{background-image:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/media/placeholder.png)}
+.mi-vacuum-cleaner-light .section-o11{background-image:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/media/placeholder.png)}
+.mi-vacuum-cleaner-light .section-o12{background-image:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/media/placeholder.png)}
+.mi-vacuum-cleaner-light .section-o13{background-image:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/media/placeholder.png)}
+.mi-vacuum-cleaner-light .section-o14{background-image:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/media/placeholder.png)}
+.mi-vacuum-cleaner-light .section-o15{background-image:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/media/placeholder.png)}
+
+.mi-vacuum-cleaner-light .lazy-bg-loaded.section-o1{background-image:url(../media/PC_01.jpg)}
+.mi-vacuum-cleaner-light .lazy-bg-loaded.section-o3{background-image:url(../media/PC_03.jpg)}
+.mi-vacuum-cleaner-light .lazy-bg-loaded.section-o4{background-image:url(../media/PC_04.jpg)}
+.mi-vacuum-cleaner-light .lazy-bg-loaded.section-o5{background-image:url(../media/PC_05.jpg)}
+.mi-vacuum-cleaner-light .lazy-bg-loaded.section-o6{background-image:url(../media/PC_08.jpg)}
+.mi-vacuum-cleaner-light .lazy-bg-loaded.section-o7{background-image:url(../media/PC_11.jpg)}
+.mi-vacuum-cleaner-light .lazy-bg-loaded.section-o8{background-image:url(../media/PC_13.jpg)}
+.mi-vacuum-cleaner-light .lazy-bg-loaded.section-o9{background-image:url(../media/PC_14.jpg)}
+.mi-vacuum-cleaner-light .lazy-bg-loaded.section-o10{background-image:url(../media/PC_15.jpg)}
+.mi-vacuum-cleaner-light .lazy-bg-loaded.section-o11{background-image:url(../media/PC_16.jpg)}
+.mi-vacuum-cleaner-light .lazy-bg-loaded.section-o12{background-image:url(../media/PC_17.jpg)}
+.mi-vacuum-cleaner-light .lazy-bg-loaded.section-o13{background-image:url(../media/PC_18.jpg)}
+.mi-vacuum-cleaner-light .lazy-bg-loaded.section-o14{background-image:url(../media/PC_19.jpg)}
+.mi-vacuum-cleaner-light .lazy-bg-loaded.section-o15{background-image:url(../media/PC_20.jpg)}
+
+.mi-vacuum-cleaner-light li,.mi-vacuum-cleaner-light p,.mi-vacuum-cleaner-light ul{margin:0;padding:0}
+.mi-vacuum-cleaner-light li{list-style:none}
+.mi-vacuum-cleaner-light .xm-text{display:inline-block}
+.mi-vacuum-cleaner-light .hide{display:none}
+.mi-vacuum-cleaner-light .section{background-repeat:no-repeat;margin-bottom:-1px}
+
+@media screen and (max-width:1919px){.mi-vacuum-cleaner-light-out,.mi-vacuum-cleaner-light-out *{font-size:10vw}}
+
+@media screen and (max-width:767px){
+    .mi-vacuum-cleaner-light.overview-con .f60{font-size:.6em}
+    .mi-vacuum-cleaner-light.overview-con .f30{font-size:.35em} 
+    .mi-vacuum-cleaner-light .lazy-bg-loaded.section-o1{height:21em;background-size:26em;background-position:-4.8em bottom;background-color:#cccccc}
+    .mi-vacuum-cleaner-light.overview-con .section-o1 .text-container{left:1em;width:8em}
+    .mi-vacuum-cleaner-light.overview-con .section-o1 .f90.name{font-size:.72em}
+    .mi-vacuum-cleaner-light.overview-con .section-o1 .f48{font-size:.45em;margin-top:.7em;width:12em}
+    .mi-vacuum-cleaner-light.overview-con .section-o1 .f30{letter-spacing:normal;margin-top:.8em}
+    .mi-vacuum-cleaner-light.overview-con .section-o1 .f30 span{line-height:1.2}
+    .mi-vacuum-cleaner-light.overview-con .section-o2{padding:1em .5em}
+    .mi-vacuum-cleaner-light.overview-con .section-o2 .text-item{width:50%;padding:.6em .9em}
+    .mi-vacuum-cleaner-light.overview-con .section-o2 .text-item:nth-child(2),.mi-vacuum-cleaner-light.overview-con .section-o2 .text-item:nth-child(4){border-right:none}
+    .mi-vacuum-cleaner-light.overview-con .section-o2 .text-item:nth-child(3){border-right:1px solid hsla(0,0%,100%,.14)}
+    .mi-vacuum-cleaner-light.overview-con .section-o2 .text-item:nth-child(4){border-bottom:1px solid hsla(0,0%,100%,.14)}
+    .mi-vacuum-cleaner-light.overview-con .section-o2 .f32{font-size:.35em;line-height:1.2}
+    .mi-vacuum-cleaner-light.overview-con .section-o2 .f24{font-size:.28em;line-height:1.2}
+    .mi-vacuum-cleaner-light.overview-con .section-o3{height:13em;background-position-x:-5.1em}
+    .mi-vacuum-cleaner-light.overview-con .section-o3 .text-container{left:.8em;width:6.2em;top:1em}
+    .mi-vacuum-cleaner-light.overview-con .section-o3 .f30{width:100%;margin-top:1em}
+    .mi-vacuum-cleaner-light.overview-con .section-o4{height:13.1em;background-size:13em;background-position:-1em bottom;padding-top:1em}
+    .mi-vacuum-cleaner-light.overview-con .section-o4 .text-container{width:8.4em}
+    .mi-vacuum-cleaner-light.overview-con .section-o4 .f30{margin-top:1em}
+    .mi-vacuum-cleaner-light.overview-con .section-o5{height:7em;background-position-x:-.4em}
+    .mi-vacuum-cleaner-light.overview-con .section-o5 .text-container{top:1em;width:4.6em}
+    .mi-vacuum-cleaner-light.overview-con .section-o5 .f60{font-size:.6em}
+    .mi-vacuum-cleaner-light.overview-con .section-o5 .f30{margin-top:1em}
+    .mi-vacuum-cleaner-light.overview-con .section-o6{padding:0;height:15em;background-size:22em;background-position:-7.9em bottom;background-color:#000}
+    .mi-vacuum-cleaner-light.overview-con .section-o6 .text-container{left:.8em;width:8.4em;top:1em}
+    .mi-vacuum-cleaner-light.overview-con .section-o7{padding:0;height:14em;background-size:19em;background-position:-4em bottom;background-color:#000}
+    .mi-vacuum-cleaner-light.overview-con .section-o7 .text-container{left:.8em;text-align:left;width:8.4em;top:1em}
+    .mi-vacuum-cleaner-light.overview-con .section-o7 .f60{font-size:.6em}
+    .mi-vacuum-cleaner-light.overview-con .section-o7 .f30{font-size:.35em}
+    .mi-vacuum-cleaner-light.overview-con .section-o8{height:9em;background-position-x:-5.4em}
+    .mi-vacuum-cleaner-light.overview-con .section-o8 .text-container{left:.8em;width:8.4em;top:1em;color:#000}
+    .mi-vacuum-cleaner-light.overview-con .section-o8 .f30{width:15em}
+    .mi-vacuum-cleaner-light.overview-con .section-o9{padding-top:1em;height:13.3em;background-size:14em;background-position:-1.9em 3.9em;background-color:#fff}
+    .mi-vacuum-cleaner-light.overview-con .section-o9 .text-container{width:8.4em;text-align:left}
+    .mi-vacuum-cleaner-light.overview-con .section-o9 .f60{width:10em}
+    .mi-vacuum-cleaner-light.overview-con .section-o9 .text-container .f30{margin-top:1em}
+    .mi-vacuum-cleaner-light.overview-con .section-o9 .text-container .f30 br{display:none}
+    .mi-vacuum-cleaner-light.overview-con .section-o9 .feature-item{top:10.4em;text-align:left}
+    .mi-vacuum-cleaner-light.overview-con .section-o9 .feature-item:first-child{left:.8em;width:3.3em}
+    .mi-vacuum-cleaner-light.overview-con .section-o9 .feature-item:nth-child(2){left:4.8em;width:2em;text-align:right}
+    .mi-vacuum-cleaner-light.overview-con .section-o9 .feature-item:last-child{left:7.2em;width:2.4em}
+    .mi-vacuum-cleaner-light.overview-con .section-o9 .feature-item .bottom{font-size:.28em}
+    .mi-vacuum-cleaner-light.overview-con .section-o10{height:18.6em;background-size:15.8em;background-position:-4em bottom;background-color:#bcb8b7}
+    .mi-vacuum-cleaner-light.overview-con .section-o10 .text-container{left:.8em;width:8.4em;top:1em;color:#000}
+    .mi-vacuum-cleaner-light.overview-con .section-o10 .f60{font-size:.6em}
+    .mi-vacuum-cleaner-light.overview-con .section-o10 .f30{margin-top:1em}
+    .mi-vacuum-cleaner-light.overview-con .section-o11{padding-top:1em;height:14.3em;background-size:14em;background-position:-2em bottom}
+    .mi-vacuum-cleaner-light.overview-con .section-o11 .text-container{width:8.4em;text-align:left}
+    .mi-vacuum-cleaner-light.overview-con .section-o11 .f30{margin-top:1em}
+    .mi-vacuum-cleaner-light.overview-con .section-o12{height:13.2em;background-size:14.1em;background-position:-1.4em bottom}
+    .mi-vacuum-cleaner-light.overview-con .section-o12 .text-container{left:.8em;color:#000;width:8.4em;top:1em}
+    .mi-vacuum-cleaner-light.overview-con .section-o12 .f30{margin-top:1em}
+    .mi-vacuum-cleaner-light.overview-con .section-o13{padding-top:1em;height:14.2em;background-size:14em;background-position:-3em bottom;background-color:#fff}
+    .mi-vacuum-cleaner-light.overview-con .section-o13 .text-container{width:8.4em;text-align:left}
+    .mi-vacuum-cleaner-light.overview-con .section-o13 .f30{margin-top:1em}
+    .mi-vacuum-cleaner-light.overview-con .section-o14{height:14em;background-position-x:-11.9em}
+    .mi-vacuum-cleaner-light.overview-con .section-o14 .text-container{top:1em;left:.8em;width:3.4em}
+    .mi-vacuum-cleaner-light.overview-con .section-o14 .f60{font-size:.6em;width:11em}
+    .mi-vacuum-cleaner-light.overview-con .section-o14 .f30{margin-top:1em;width:100%}
+    .mi-vacuum-cleaner-light.overview-con .section-o15{height:13em;background-position:-1em bottom}
+    .mi-vacuum-cleaner-light.overview-con .section-o15 .text-container{left:.8em;top:1em;width:8.4em;color:#000}
+    .mi-vacuum-cleaner-light.overview-con .section-o16{padding:1em 0}
+    .mi-vacuum-cleaner-light.overview-con .section-o16 .feature-list{flex-wrap:wrap;margin-top:.9em}
+    .mi-vacuum-cleaner-light.overview-con .section-o16 .feature-item{width:100%;flex-direction:inherit;border-radius:0}
+    .mi-vacuum-cleaner-light.overview-con .section-o16 .feature-item:nth-child(2){flex-direction:row-reverse}
+    .mi-vacuum-cleaner-light.overview-con .section-o16 .image{width:50%;height:auto;border-radius:0}
+    .mi-vacuum-cleaner-light.overview-con .section-o16 .feature-list .text-box{width:50%;text-align:left;padding:0 .5em}
+    .mi-vacuum-cleaner-light.overview-con .section-o16 .f30{font-size:.35em}
+    .mi-vacuum-cleaner-light.overview-con .section-o16 .f20{font-size:.28em;margin-bottom:1em;padding:0}
+    .mi-vacuum-cleaner-light.overview-con .section-o16 .f18{font-size:.25em}
+    .mi-vacuum-cleaner-light.overview-con .section-o16 .note{width:8.4em;margin-top:1em}
+    .mi-vacuum-cleaner-light.overview-con .section-o16 .note .f18{line-height:1.5}
+}
