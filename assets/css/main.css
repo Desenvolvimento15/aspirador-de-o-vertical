@@ -1,8 +1,3 @@
-
-*{margin: 0; padding: 0; box-sizing: border-box;}
-
-
-
 @font-face{font-family:CamphorPro-Light;src:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/css/fonts/camphor-pro/CamphorPro-Light.woff) format("woff")}
 @font-face{font-family:CamphorPro-Regular;src:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/css/fonts/camphor-pro/CamphorPro-Regular.woff) format("woff")}
 @font-face{font-weight:700;font-family:CamphorPro-Bold;src:url(/Custom/Content/Themes/Xiaomi/Templates/landing-pages/mi-vacuum-cleaner-light/assets/css/fonts/camphor-pro/CamphorPro-Bold.woff) format("woff")}
